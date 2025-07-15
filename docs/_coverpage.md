@@ -1,4 +1,4 @@
-# WeighMyBru
+<link rel="icon" href="/media/weighmybru_logo_green.png" />
 
 >The smart espresso scale you've been looking for!
 

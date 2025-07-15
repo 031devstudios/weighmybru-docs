@@ -9,6 +9,7 @@
   <!-- Replace with your own title and description. -->
   <title>WeighMyBru</title>
   <meta name="description" content="The espresso scale you've been looking for.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
   <!-- Default Theme (see https://docsify.js.org/#/themes) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
@@ -28,9 +29,13 @@
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
       name: 'WeighMyBru',
+      nameLink: '/',
       repo: "https://github.com/031devstudios/weighmybru",
-      coverpage: "coverpage.md",
+      loadSidebar: true,
+      coverpage: true,
       onlyCover: false,
+      nloadNavbar: true,
+      mergeNavbar: true,
 
       // Sidebar Configuration
       auto2top: true,
@@ -49,12 +54,17 @@
     };
   </script>
 
+  
+
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 
   <!-- Recommended -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+
+  <!-- Footer -->
+  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
 
 </body>
 </html>
