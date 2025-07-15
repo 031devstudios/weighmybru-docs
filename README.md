@@ -1,3 +1,7 @@
 # WeighMyBru Docs
+Supporting documentation for WeighMyBru scales website<br>
+Click Here -> [WeighMyBru Docs](https://031devstudios.github.io/weighmybru-docs/)
 
-> Supporting documentation for [WeighMyBru](https://031devstudios.github.io/weighmybru-docs/) website.
+# WeighMyBru Code
+Github repo for WeighMyBru code<br>
+Click Here -> [WeighMyBru Code](https://github.com/031devstudios/WeighMyBru)
