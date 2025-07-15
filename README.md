@@ -13,5 +13,5 @@ All supporting documentation for [WeighMyBru] scale project can be found at the 
 The documentation is still a work in progress.
 
 
-[WeighMyBru Docs] :https://031devstudios.github.io/weighmybru-docs/
+[WeighMyBru Docs]: https://031devstudios.github.io/weighmybru-docs/
 [WeighMyBru]: https://github.com/031devstudios/WeighMyBru
