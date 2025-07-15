@@ -1,6 +1,8 @@
 <div align="center">
 
-[![Gaggiuino](/images/weighmybru_logo_green.png)](https://031devstudios.github.io/weighmybru-docs/)
+<a href="https://031devstudios.github.io/weighmybru-docs/">
+    <img src="/images/weighmybru_logo_green.png" alt="WeighMyBru" width="500" heigh="500">
+  </a>
 
 [![](https://dcbadge.limes.pink/api/server/HYp4TSEjSf)](https://discord.gg/HYp4TSEjSf "Join Discord Help Chat")
 </div>
@@ -11,5 +13,5 @@ All supporting documentation for [WeighMyBru] scale project can be found at the 
 The documentation is still a work in progress.
 
 
-[WeighMyBru Docs](https://031devstudios.github.io/weighmybru-docs/)
-[WeighMyBru](https://github.com/031devstudios/WeighMyBru)
+[WeighMyBru Docs] :https://031devstudios.github.io/weighmybru-docs/
+[WeighMyBru]: https://github.com/031devstudios/WeighMyBru
