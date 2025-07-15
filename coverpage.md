@@ -2,5 +2,5 @@
 
 >The smart espresso scale you've been looking for!
 
-[Get Started](https://www.google.com)
+[Get Started](#main ':class=button')
 
