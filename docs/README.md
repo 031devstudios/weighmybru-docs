@@ -1,4 +1,4 @@
-<img src="/media/overview/overview.jpg" alt="WeighMyBru" class="center" width="300" heigh="300">
+<img src="media/overview/overview.jpg" alt="WeighMyBru" class="center" width="300" heigh="300">
 
 
 <h1 style="color:rgba(255, 255, 255, 1);" class="center">WeighMyBru</h1><br>
