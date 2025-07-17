@@ -1,4 +1,4 @@
-<img src="/media/weighmybru-logo.png" alt="WeighMyBru" class="center" width="500" heigh="500">
+<img src="media/weighmybru-logo.png" alt="WeighMyBru" class="center" width="500" heigh="500">
 
 
 
