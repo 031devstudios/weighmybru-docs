@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://031devstudios.github.io/weighmybru-docs/">
-    <img src="/images/weighmybru_logo_green.png" alt="WeighMyBru" width="500" heigh="500">
+    <img src="/images/weighmybru-logo.png" alt="WeighMyBru" width="500" heigh="500">
   </a>
 
 [![](https://dcbadge.limes.pink/api/server/HYp4TSEjSf)](https://discord.gg/HYp4TSEjSf "Join Discord Help Chat")

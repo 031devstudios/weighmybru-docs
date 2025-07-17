@@ -1,9 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 - 🏠 [Overview](/README.md)
-
 - 📦 Getting Started
-  - [What is WeighMyBru?](/getting-started/what-is-weighmybru.md)
   - [Features Overview](/getting-started/features.md)
   - [Choosing a Model](/getting-started/choose-model.md)
 
@@ -18,7 +16,7 @@
   - [Taring](/usage/taring.md)
   - [Bluetooth Setup](/usage/bluetooth.md)
 
-- 🌐 Wi-Fi & App Integration
+- 🌐 Wi-Fi Integration
   - [Wi-Fi Setup](/integration/wifi.md)
   - [Using with GaggiMate](/integration/gaggimate.md)
   - [Third-Party App Support](/integration/3rd-party.md)

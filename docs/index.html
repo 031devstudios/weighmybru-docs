@@ -14,18 +14,35 @@
   <!-- Default Theme (see https://docsify.js.org/#/themes) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
 
+  <!-- Discord Invite -->
+  
 </head>
 
 <style>
+.markdown-section { /* Reduce left padding on main markdown content */
+  padding-left: 150px !important;
+  padding-right: 150px !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+}
 .sidebar li a {
   display: inline !important;
   white-space: nowrap;
   vertical-align: middle;
+  font-size: 16px;
 }
-
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*Make scrolling smoother */
   }
+body {
+  font-size: 20px; /* Adjust this to your preferred size */
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 </style>
 
 <body>
@@ -42,21 +59,26 @@ html {
       onlyCover: false,
       loadNavbar: true,
       mergeNavbar: true,
-
-      // Sidebar Configuration
-      auto2top: true,
       loadSidebar: true,
       maxLevel: 3,
       subMaxLevel: 3,
       auto2top: true,
 
+      // Footer Configuration
+      footer: {
+        copy: '<span>© 2025 WeighMyBru by</span>',
+        auth: '031 Dev Studios',
+        pre: '<hr/>',
+        style: 'text-align: center;',
+      },
+
       // Search Plugin Configuration
       search: {
         placeholder: 'Type to search',
         noData: 'No matches found.',
-        // Headline depth, 1 - 6
         depth: 2,
       }
+      
     };
   </script>
 
@@ -71,6 +93,62 @@ html {
 
   <!-- Footer -->
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+  <!-- CSS Discord Invite -->
+  <style>
+    .join {
+    width: calc(50% - 40px);
+    background: #333;
+    color: white;
+    font-size: 1.12em;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 3px;
+    gap: 15px;
+}
+
+.j {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.join img {
+    border-radius: 100%;
+    width: 56px;
+    height: 56px;
+}
+
+.join span {
+    color: #ddd;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.join a {
+    width: 100%;
+    box-sizing: border-box;
+    background: #7289DA;
+    border: none;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.join a:hover {
+    opacity: 0.92;
+}
+  </style>
 
 </body>
 </html>
