@@ -17,7 +17,13 @@
 </head>
 
 <style>
-  html {
+.sidebar li a {
+  display: inline !important;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+html {
     scroll-behavior: smooth;
   }
 </style>
@@ -29,7 +35,7 @@
     // Docsify Configuration (see https://docsify.js.org/#/configuration)
     window.$docsify = {
       name: 'WeighMyBru',
-      nameLink: '/',
+      nameLink: 'https://github.com/031devstudios/weighmybru',
       repo: "https://github.com/031devstudios/weighmybru",
       loadSidebar: true,
       coverpage: true,
