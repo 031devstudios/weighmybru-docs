@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 - 🏠 [Overview](/README.md)
-- 📦 Getting Started
   - [Features Overview](/getting-started/features.md)
   - [Choosing a Model](/getting-started/choose-model.md)
 

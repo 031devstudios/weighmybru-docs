@@ -1,16 +1,26 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
 # Features
 
-* **Webserver via Wi-Fi**<br>
-Easily connect to the scale's built-in web interface for setup, calibration, and monitoring—all without needing an app.
+|  Feature                   ||      WeighMyBru    |     WeighMyBru²    |    WeighMyBru Mini    |
+|:---------------------------|| :----------------: |:------------------:| :--------------------:|
+| Webserver                  || :heavy_check_mark: | :heavy_check_mark: | :grey_question:       |
+| GaggiMate Support          || :heavy_check_mark: | :heavy_check_mark: | :grey_question:       |
+| Bluetooth Connectivity     || :heavy_check_mark: | :heavy_check_mark: | :grey_question:       |
+| Calibration (via webserver)|| :heavy_check_mark: | :heavy_check_mark: | :grey_question:       |
+| Flow Rate                  || :heavy_check_mark: | :heavy_check_mark: | :grey_question:       |
+| Adjustable Resolution      || :heavy_check_mark: | :heavy_check_mark: | :grey_question:       |
+| Built-in Display           || :x:                | :heavy_check_mark: | :grey_question:       |
+| Tare Button                || :x:                | :heavy_check_mark: | :grey_question:       |
+| Shot Timer                 || :x:                | :heavy_check_mark: | :grey_question:       |
+| OTA Updates                || :heavy_minus_sign: | :heavy_minus_sign: | :heavy_minus_sign:    |
 
-* **Bluetooth Connectivity to GaggiMate**<br>
-Seamless integration with GaggiMate allows for real-time weight and flow data during your espresso shots.
+__Legend__
 
-* **Calibration via Web Interface**<br>
-Perform precise calibration through the webserver using known weights, ensuring accuracy without extra tools or software.
+Available :heavy_check_mark:
 
-* **Real-Time Flowrate Display**<br>
-View live flowrate data calculated from weight changes—ideal for pressure profiling, flow control, and dialing in your shots.
+Not Availabe :x: 
 
-* **Adjustable Decimal Precision**<br>
-Choose the level of decimal accuracy displayed on the scale (e.g., 1g, 0.1g, or 0.01g) depending on your preferences or needs.
+Unconfirmed :grey_question:
+
+Planned :heavy_minus_sign:
