@@ -21,14 +21,14 @@
   - [Third-Party App Support](/integration/3rd-party.md)
 
 - 🧪 Scale Variants
-  - **WeighMyBru Mini**
-    - [Overview](/variants/mini/overview.md)
-    - [Wiring & Assembly](/variants/mini/wiring.md)
-    - [Firmware Notes](/variants/mini/firmware.md)
+  - **WeighMyBru**
+    - [Overview](/variants/headless/overview.md)
+    - [Wiring & Assembly](/variants/headless/wiring.md)
+    - [Firmware](/variants/headless/firmware.md)
   - **WeighMyBru²**
     - [Overview](/variants/v2/overview.md)
     - [Assembly & Features](/variants/v2/assembly.md)
-    - [Firmware Notes](/variants/v2/firmware.md)
+    - [Firmware](/variants/v2/firmware.md)
 
 - 🛠 Advanced
   - [OTA Updates](/advanced/ota.md)
