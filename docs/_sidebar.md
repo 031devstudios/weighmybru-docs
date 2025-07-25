@@ -11,9 +11,9 @@
   - [Web Interface](/installation/web-ui.md)
 
 - 📐 Calibration & Use
-  - [How to Calibrate](/usage/calibration.md)
+  - [Calibration](/usage/calibration.md)
   - [Taring](/usage/taring.md)
-  - [Bluetooth Setup](/usage/bluetooth.md)
+  - [Settings](/usage/settings.md)
 
 - 🌐 Wi-Fi Integration
   - [Wi-Fi Setup](/integration/wifi.md)

@@ -1,3 +1,3 @@
-# Bluetooth
+# Settings
 
 (Write your content here)
