@@ -1,7 +1,6 @@
 <!-- docs/_sidebar.md -->
 
 - 🏠 [Overview](/README.md)
-- 📦 Getting Started
   - [Features Overview](/getting-started/features.md)
   - [Choosing a Model](/getting-started/choose-model.md)
 
@@ -12,9 +11,9 @@
   - [Web Interface](/installation/web-ui.md)
 
 - 📐 Calibration & Use
-  - [How to Calibrate](/usage/calibration.md)
+  - [Calibration](/usage/calibration.md)
   - [Taring](/usage/taring.md)
-  - [Bluetooth Setup](/usage/bluetooth.md)
+  - [Settings](/usage/settings.md)
 
 - 🌐 Wi-Fi Integration
   - [Wi-Fi Setup](/integration/wifi.md)
@@ -22,14 +21,14 @@
   - [Third-Party App Support](/integration/3rd-party.md)
 
 - 🧪 Scale Variants
-  - **WeighMyBru**
+  - **WeighMyBru Mini**
     - [Overview](/variants/mini/overview.md)
     - [Wiring & Assembly](/variants/mini/wiring.md)
     - [Firmware Notes](/variants/mini/firmware.md)
   - **WeighMyBru²**
     - [Overview](/variants/v2/overview.md)
     - [Assembly & Features](/variants/v2/assembly.md)
-    - [Firmware Notes](/variants/v2/firmware.md)
+    - [Firmware](/variants/v2/firmware.md)
 
 - 🛠 Advanced
   - [OTA Updates](/advanced/ota.md)

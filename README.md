@@ -4,7 +4,7 @@
     <img src="/images/weighmybru-logo.png" alt="WeighMyBru" width="500" heigh="500">
   </a>
 
-[![](https://dcbadge.limes.pink/api/server/HYp4TSEjSf)](https://discord.gg/HYp4TSEjSf "Join Discord Help Chat")
+[![](https://dcbadge.limes.pink/api/server/HYp4TSEjSf)](https://discord.gg/HYp4TSEjSf)
 </div>
 
 # WeighMyBru Documentation

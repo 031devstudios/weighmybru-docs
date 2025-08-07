@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Replace with your own title and description. -->
   <title>WeighMyBru</title>
@@ -12,20 +11,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
   <!-- Default Theme (see https://docsify.js.org/#/themes) -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-
-  <!-- Discord Invite -->
-  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"> 
 </head>
-
 <style>
 .markdown-section { /* Reduce left padding on main markdown content */
-  padding-left: 150px !important;
-  padding-right: 150px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
   max-width: 100% !important;
   margin: 0 auto !important;
+  
 }
-.sidebar li a {
+.sidebar a {
   display: inline !important;
   white-space: nowrap;
   vertical-align: middle;
@@ -33,7 +29,7 @@
 }
 html {
     scroll-behavior: smooth; /*Make scrolling smoother */
-  }
+}
 body {
   font-size: 20px; /* Adjust this to your preferred size */
 }
@@ -61,7 +57,7 @@ body {
       mergeNavbar: true,
       loadSidebar: true,
       maxLevel: 3,
-      subMaxLevel: 3,
+      subMaxLevel: 2,
       auto2top: true,
 
       // Footer Configuration
@@ -77,12 +73,18 @@ body {
         placeholder: 'Type to search',
         noData: 'No matches found.',
         depth: 2,
+      },
+      tabs: {
+        persist: true, // default
+        sync: true, // default
+        theme: 'material', // default
+        tabComments: true, // default
+        tabHeadings: true // default
       }
-      
-    };
+  };
+
   </script>
 
-  
 
   <!-- Required -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
@@ -93,6 +95,9 @@ body {
 
   <!-- Footer -->
   <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+  <!-- Docsify Tabs (latest v1.x.x) -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 
   <!-- CSS Discord Invite -->
   <style>
