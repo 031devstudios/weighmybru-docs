@@ -22,13 +22,13 @@
 
 - 🧪 Scale Variants
   - **WeighMyBru**
-    - [Overview](/variants/mini/overview.md)
-    - [Wiring & Assembly](/variants/mini/wiring.md)
-    - [Firmware Notes](/variants/mini/firmware.md)
+    - [Overview](/variants/weighmybru/overview.md)
+    - [Assembly](/variants/weighmybru/assembly.md)
+    - [Firmware Notes](/variants/weighmybru/firmware.md)
   - **WeighMyBru²**
-    - [Overview](/variants/v2/overview.md)
-    - [Assembly & Features](/variants/v2/assembly.md)
-    - [Firmware](/variants/v2/firmware.md)
+    - [Overview](/variants/weighmybru2/overview.md)
+    - [Assembly](/variants/weighmybru2/assembly.md)
+    - [Firmware](/variants/weighmybru2/firmware.md)
 
 - 🛠 Advanced
   - [OTA Updates](/advanced/ota.md)
