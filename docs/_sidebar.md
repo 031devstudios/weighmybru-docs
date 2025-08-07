@@ -21,7 +21,7 @@
   - [Third-Party App Support](/integration/3rd-party.md)
 
 - 🧪 Scale Variants
-  - **WeighMyBru Mini**
+  - **WeighMyBru**
     - [Overview](/variants/mini/overview.md)
     - [Wiring & Assembly](/variants/mini/wiring.md)
     - [Firmware Notes](/variants/mini/firmware.md)
