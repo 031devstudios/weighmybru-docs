@@ -70,17 +70,35 @@ sudo apt install git
 Check if the project has a `platformio.ini` file in the root directory. If not, or if you need to modify it for ESP32-S3, create/update it with:
 
 ```ini
-[env:esp32-s3-devkitm-1]
+[env:esp32-s3-devkitc-1]
 platform = espressif32
-board = esp32-s3-devkitm-1
+board = esp32-s3-devkitc-1
 framework = arduino
 monitor_speed = 115200
+board_upload.flash_size = 4MB
 board_build.filesystem = littlefs
+board_build.partitions = huge_app.csv
+upload_protocol = esptool
+upload_speed = 460800
+upload_flags = 
+  --chip=esp32s3
+  --before=default_reset
+  --after=hard_reset
+monitor_rts = 0
+monitor_dtr = 0
+build_flags = 
+  -DARDUINO_USB_CDC_ON_BOOT=1
+  -DBOARD_HAS_PSRAM
+  -Os
+  -DCORE_DEBUG_LEVEL=0
+
 lib_deps = 
 	robtillaart/HX711@^0.6.0
 	https://github.com/me-no-dev/ESPAsyncWebServer.git
 	https://github.com/me-no-dev/AsyncTCP.git
 	ESP32 BLE Arduino
+	adafruit/Adafruit SSD1306@^2.5.7
+	adafruit/Adafruit GFX Library@^1.11.9
 ```
 
 ---
@@ -128,7 +146,7 @@ lib_deps =
    ```
 3. **Upload to ESP32:**
    ```bash
-   pio run --target upload
+   pio run -t upload -t uploadfs
    ```
 
 ### Using VSCode Status Bar:
