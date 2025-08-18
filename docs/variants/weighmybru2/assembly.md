@@ -14,4 +14,6 @@
 
 ## Wiring Diagram
 
+<img src="media/variants/wiring-diagram.png" alt="Wiring Diagram" width="600" height="500">
+
 ## Assembly Guide
